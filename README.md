@@ -49,27 +49,17 @@ The system uses an ESP32 simulation in Wokwi and ROS 2 packages to exchange data
 
 
 ```text
-
 repository/
-
-│── ros2_packages/
-
-│   ├── mqtt_ros_bridge/ 
-
+├── ros2_packages/
+│   ├── mqtt_ros_bridge/
 │   └── mqtt_ros_bridge_msgs/
-
 ├── esp32_firmware/
-
-├── wokwi/
-
-│   ├── diagram.json
-
-│   └── sketch.ino
-
-├── videos
-
+│   ├── firmware_src/          (SmartServo, SmartServoController, MqttSmartServoBridge, ISmartServo)
+|   ├── wokwi_project/         (diagram.json, sketch.ino)
+│   └── WokWi_ProjectZip/         
+├── videos/
+├── system_diagram/
 └── README.md
-
 ```
 
 
